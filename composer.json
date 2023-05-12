@@ -4,11 +4,12 @@
     "keywords": [
         "php",
         "whmcs",
-        "web host automation platform",
-        "provisioning module",
-        "server module"
+        "server provisioning module"
     ],
     "license": "MIT",
+    "require" : {
+        "php": "^8.1"
+    },
     "require-dev": {
         "phpunit/phpunit": "@stable"
     },
