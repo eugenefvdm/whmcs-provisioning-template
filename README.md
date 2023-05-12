@@ -8,10 +8,9 @@ This is a custom WHMCS server provisioning module template.
 
 It is based on the [official one](https://github.com/WHMCS/sample-provisioning-module) from WHMCS with the following added:
 
-- Server Update Usage 
-- PHPUnit Tests YML file and badge
-
-* Please note we have no affiliation with WHMCS at all
+- Made tests to pass with PHPUnit 10
+- Added missing Update Usage module call 
+- Added a PHPUnit Tests YML file and badge
 
 For more information, please refer to the documentation at:
 https://developers.whmcs.com/provisioning-modules/
