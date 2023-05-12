@@ -1,28 +1,18 @@
 {
-    "name": "whmcs/provisioning-module-sample",
-    "description": "Sample Provisioning Module for WHMCS Billing Automation Platform",
+    "name": "eugenevdm/whmcs-provisioning-template",
+    "description": "Custom Template for WHMCS Server Provisioning",
     "keywords": [
+        "php",
         "whmcs",
         "web host automation platform",
         "provisioning module",
         "server module"
     ],
-    "homepage": "http://www.whmcs.com/",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "WHMCS Development Team",
-            "email": "development@whmcs.com",
-            "homepage": "http://www.whmcs.com/",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "support@whmcs.com",
-        "forum": "http://forums.whmcs.com/",
-        "wiki": "http://docs.whmcs.com/"
-    },
     "require-dev": {
         "phpunit/phpunit": "@stable"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
