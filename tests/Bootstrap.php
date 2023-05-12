@@ -4,7 +4,7 @@
 /**
  * The original file was called _bootstrap as referenced in phpunit.xml.dist
  * but this gave all kinds of weirdness. So instead we create a file
- * with Uppercase and added this bogus class and function here.
+ * with Uppercase and add this bogus class and function here.
  */
 class Bootstrap extends \PHPUnit\Framework\TestCase {
     public function testDummy()
